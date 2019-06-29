@@ -4,8 +4,11 @@
 class SpotifyDbusBridge < Formula
   desc "Apple Events to DBus bridge for Spotify"
   homepage "https://github.com/shurizzle/rust-macos-spotify-dbus-bridge"
+
   url "https://github.com/shurizzle/rust-macos-spotify-dbus-bridge/releases/download/v0.0.2/spotify-dbus-bridge-v0.0.2-x86_64-apple-darwin.tar.gz"
   sha256 "a3aea9fc12c2e03fc829b785be5468a26d56222af8495f05057fcd305f052978"
+  version "0.0.2"
+
   head "https://github.com/shurizzle/rust-macos-spotify-dbus-bridge"
 
   depends_on "dbus"
